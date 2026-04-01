@@ -18,7 +18,7 @@ class TestCashBack {
 
     @Test
     public void checkIfSubscribedOverLimit() {
-        int purchaseSum = 20_000_000;
+        int purchaseSum = 20_000_00;
         boolean ifSubscribed = true;
         int expectedResult = 10_000;
         CashBack calculator = new CashBack();
